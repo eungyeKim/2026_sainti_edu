@@ -1,0 +1,8 @@
+{
+    "python.autocomplete.extraPaths": [
+        "/home/rladm/2026_sainti_edu/.venv/lib/python3.10/site-packages/**"
+    ],
+    "python.analysis.extraPaths": [
+       "/home/rladm/2026_sainti_edu/.venv/lib/python3.10/site-packages/**"
+    ]
+}
