@@ -1,0 +1,101 @@
+{
+  "seed": 27,
+  "torch": "2.4.1+cpu",
+  "backend": "directml",
+  "gpu": "AMD Radeon(TM) 780M Graphics",
+  "selected_step": 32768,
+  "history": [
+    {
+      "steps": 8192,
+      "reached_90": 0,
+      "min_reach_pct": -109.76899705128828
+    },
+    {
+      "steps": 16384,
+      "reached_90": 3,
+      "min_reach_pct": 80.13175311605349
+    },
+    {
+      "steps": 24576,
+      "reached_90": 6,
+      "min_reach_pct": 74.29743395949451
+    },
+    {
+      "steps": 32768,
+      "reached_90": 9,
+      "min_reach_pct": 81.13138232630264
+    },
+    {
+      "steps": 40960,
+      "reached_90": 6,
+      "min_reach_pct": 74.79308685589568
+    },
+    {
+      "steps": 49152,
+      "reached_90": 6,
+      "min_reach_pct": 68.07812164104851
+    },
+    {
+      "steps": 57344,
+      "reached_90": 3,
+      "min_reach_pct": 67.07466899615532
+    },
+    {
+      "steps": 65536,
+      "reached_90": 3,
+      "min_reach_pct": 63.644344201053414
+    },
+    {
+      "stage": "refine",
+      "steps": 40960,
+      "reached_90": 6,
+      "min_reach_pct": 77.94284974297283
+    },
+    {
+      "stage": "refine",
+      "steps": 49152,
+      "reached_90": 3,
+      "min_reach_pct": 76.67237002305704
+    },
+    {
+      "stage": "refine",
+      "steps": 57344,
+      "reached_90": 3,
+      "min_reach_pct": 75.08399216454039
+    },
+    {
+      "stage": "refine",
+      "steps": 65536,
+      "reached_90": 6,
+      "min_reach_pct": 80.34347904268716
+    },
+    {
+      "stage": "refine",
+      "steps": 73728,
+      "reached_90": 6,
+      "min_reach_pct": 81.93774635505424
+    },
+    {
+      "stage": "refine",
+      "steps": 81920,
+      "reached_90": 5,
+      "min_reach_pct": 73.61063180942855
+    },
+    {
+      "stage": "refine",
+      "steps": 90112,
+      "reached_90": 6,
+      "min_reach_pct": 72.73084490680391
+    },
+    {
+      "stage": "refine",
+      "steps": 98304,
+      "reached_90": 6,
+      "min_reach_pct": 67.25868666682042
+    }
+  ],
+  "policy_device": "privateuseone:0",
+  "adam_device": "privateuseone:0",
+  "extra_training_steps": 65536,
+  "total_training_steps": 131072
+}

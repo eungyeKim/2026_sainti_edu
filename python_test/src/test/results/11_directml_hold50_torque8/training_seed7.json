@@ -44,8 +44,58 @@
       "steps": 65536,
       "reached_90": 9,
       "min_reach_pct": 82.33729095938962
+    },
+    {
+      "stage": "refine",
+      "steps": 40960,
+      "reached_90": 9,
+      "min_reach_pct": 86.76432810511831
+    },
+    {
+      "stage": "refine",
+      "steps": 49152,
+      "reached_90": 9,
+      "min_reach_pct": 78.86070338273574
+    },
+    {
+      "stage": "refine",
+      "steps": 57344,
+      "reached_90": 6,
+      "min_reach_pct": 73.18639807191374
+    },
+    {
+      "stage": "refine",
+      "steps": 65536,
+      "reached_90": 6,
+      "min_reach_pct": 68.87070132541386
+    },
+    {
+      "stage": "refine",
+      "steps": 73728,
+      "reached_90": 5,
+      "min_reach_pct": 73.08726369970012
+    },
+    {
+      "stage": "refine",
+      "steps": 81920,
+      "reached_90": 3,
+      "min_reach_pct": 83.73407644587218
+    },
+    {
+      "stage": "refine",
+      "steps": 90112,
+      "reached_90": 6,
+      "min_reach_pct": 78.87307362544371
+    },
+    {
+      "stage": "refine",
+      "steps": 98304,
+      "reached_90": 6,
+      "min_reach_pct": 78.31684197738002
     }
   ],
   "policy_device": "privateuseone:0",
-  "adam_device": "privateuseone:0"
+  "adam_device": "privateuseone:0",
+  "extra_training_steps": 65536,
+  "total_training_steps": 131072
 }
