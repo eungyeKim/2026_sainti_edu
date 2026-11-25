@@ -1,0 +1,124 @@
+{
+  "gains": {
+    "bias": 0.11940111390472573,
+    "speed_gain": -0.06761683053531123,
+    "heading_gain": 1.950649072171553,
+    "lateral_gain": 1.3433639755014772,
+    "damping": 0.18233465888695177
+  },
+  "method": "cross-entropy optimization in MuJoCo",
+  "seed": 27,
+  "generations": 5,
+  "population": 12,
+  "training_loss": 0.11977716768165052,
+  "validation": [
+    {
+      "scenario": {
+        "speed": 0.2,
+        "seconds": 10,
+        "yaw_disturbance": 0.0
+      },
+      "baseline": {
+        "score": 57.69998294045997,
+        "forward_m": 1.545507106288599,
+        "lateral_m": -0.171327112806425,
+        "yaw_deg": -13.823119516201476,
+        "max_lateral_m": 0.171327112806425,
+        "max_yaw_deg": 13.823119516201476,
+        "rms_lateral_m": 0.07113829433840085,
+        "rms_yaw_deg": 7.683830769987657
+      },
+      "trained": {
+        "score": 0.13842405307536343,
+        "forward_m": 1.5386406702519653,
+        "lateral_m": 0.0002487280655861423,
+        "yaw_deg": -0.5035347336592855,
+        "max_lateral_m": 0.01059789607901939,
+        "max_yaw_deg": 1.5941280657566839,
+        "rms_lateral_m": 0.004363265799517539,
+        "rms_yaw_deg": 0.547516079035312
+      }
+    },
+    {
+      "scenario": {
+        "speed": 0.35,
+        "seconds": 10,
+        "yaw_disturbance": 0.0
+      },
+      "baseline": {
+        "score": 244.45714508203815,
+        "forward_m": 2.6795345699734474,
+        "lateral_m": -0.4254442670393865,
+        "yaw_deg": -19.18237013098915,
+        "max_lateral_m": 0.4254442670393865,
+        "max_yaw_deg": 19.18237013098915,
+        "rms_lateral_m": 0.17924188050679601,
+        "rms_yaw_deg": 10.585564283483391
+      },
+      "trained": {
+        "score": 0.06560257903174914,
+        "forward_m": 2.700800595230514,
+        "lateral_m": -0.0011390942459319367,
+        "yaw_deg": -0.42957433832831377,
+        "max_lateral_m": 0.01059789607901939,
+        "max_yaw_deg": 1.5941280657566839,
+        "rms_lateral_m": 0.0029426150161381386,
+        "rms_yaw_deg": 0.3555884102507275
+      }
+    },
+    {
+      "scenario": {
+        "speed": 0.5,
+        "seconds": 10,
+        "yaw_disturbance": 0.0
+      },
+      "baseline": {
+        "score": 648.7074879739031,
+        "forward_m": 3.864558413027123,
+        "lateral_m": -0.7376098122597974,
+        "yaw_deg": -23.268776762488855,
+        "max_lateral_m": 0.7376098122597974,
+        "max_yaw_deg": 23.268776762488855,
+        "rms_lateral_m": 0.30653240128939924,
+        "rms_yaw_deg": 12.636425152419097
+      },
+      "trained": {
+        "score": 0.08513834009295469,
+        "forward_m": 3.934869346110497,
+        "lateral_m": -0.004584900537942419,
+        "yaw_deg": -0.26152723396364785,
+        "max_lateral_m": 0.01059789607901939,
+        "max_yaw_deg": 1.5941280657566839,
+        "rms_lateral_m": 0.003818770038094497,
+        "rms_yaw_deg": 0.353653656067777
+      }
+    },
+    {
+      "scenario": {
+        "speed": 0.4,
+        "seconds": 10,
+        "yaw_disturbance": -0.25
+      },
+      "baseline": {
+        "score": 379.7396611892404,
+        "forward_m": 3.057979695508273,
+        "lateral_m": -0.5441431665747257,
+        "yaw_deg": -21.089485415279036,
+        "max_lateral_m": 0.5441431665747257,
+        "max_yaw_deg": 21.089485415279036,
+        "rms_lateral_m": 0.23024774007016482,
+        "rms_yaw_deg": 11.721662151228328
+      },
+      "trained": {
+        "score": 0.07867994262257297,
+        "forward_m": 3.0967919062496465,
+        "lateral_m": -0.002772985170092009,
+        "yaw_deg": -0.3900106620856556,
+        "max_lateral_m": 0.01059789607901939,
+        "max_yaw_deg": 1.5941280657566839,
+        "rms_lateral_m": 0.003462905468132249,
+        "rms_yaw_deg": 0.370879942379055
+      }
+    }
+  ]
+}
