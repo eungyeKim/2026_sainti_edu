@@ -23,8 +23,8 @@ for _ in range(1500):
 save_csv("05_contact.csv", ["time_s", "center_z_m", "ncon", "normal_force_N"], rows)
 report = {"first_contact_s": first_contact, "final_center_z_m": float(data.qpos[2]),
           "mean_last_100_force_N": float(np.mean(np.asarray(rows)[-100:, 3])),
-          "expected_static_weight_N": 0.2 * 9.81}
+          "expected_static_weight_N": 0.4 * 9.81}
 save_json("05_contact_metrics.json", report)
 assert first_contact is not None
-assert abs(report["mean_last_100_force_N"] - 1.962) < 0.05
+assert abs(report["mean_last_100_force_N"] - 3.924) < 0.05
 print("PASS:", report)

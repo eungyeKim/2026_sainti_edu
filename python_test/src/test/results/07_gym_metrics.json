@@ -1,0 +1,585 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "selection_metric": "mean_return",
+  "candidate_ranking": [
+    "PD11",
+    "PD4",
+    "PD6",
+    "PD1",
+    "PD8",
+    "PD2",
+    "PD3",
+    "PD10",
+    "PD5",
+    "PD7",
+    "PD9"
+  ],
+  "best_candidate": "PD11",
+  "controllers": {
+    "zero": {
+      "kp": 0.0,
+      "kd": 0.0,
+      "mean_return": -131.65206783830803,
+      "mean_abs_final_error_rad": 0.8096631050109864,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -147.8113741864094,
+          "final_error_rad": 0.85968416929245,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -131.9106317990304,
+          "final_error_rad": 0.8121287822723389,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -126.93652906392572,
+          "final_error_rad": 0.7966697216033936,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -148.22462545895422,
+          "final_error_rad": 0.8608850836753845,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -103.37717868322045,
+          "final_error_rad": 0.7189477682113647,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD": {
+      "kp": 4.0,
+      "kd": 0.6,
+      "mean_return": -4.222244986978666,
+      "mean_abs_final_error_rad": 0.0,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -4.789586404636967,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -4.2284328279527985,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -4.053803946104251,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -4.804225622351121,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -3.235176133848191,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD1": {
+      "kp": 2.0,
+      "kd": 0.2,
+      "mean_return": -4.66797764507525,
+      "mean_abs_final_error_rad": 0.0,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -5.240936658224601,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -4.677145768714773,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -4.5007794297173485,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -5.255589584498582,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -3.665436784220943,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD2": {
+      "kp": 2.0,
+      "kd": 0.4,
+      "mean_return": -5.121566271636802,
+      "mean_abs_final_error_rad": 0.0,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -5.750199802216017,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -5.131625313713888,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -4.938121336688827,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -5.766276611349344,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -4.021608294215929,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD3": {
+      "kp": 4.0,
+      "kd": 0.2,
+      "mean_return": -5.152375951274054,
+      "mean_abs_final_error_rad": 0.0,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -5.813699892507153,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -5.1651566944024925,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -4.958273967490917,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -5.830696803833868,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -3.994052398135841,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD4": {
+      "kp": 4.0,
+      "kd": 0.4,
+      "mean_return": -4.165658066669708,
+      "mean_abs_final_error_rad": 0.0,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -4.727787644442081,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -4.167479681708917,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -3.9965073080256563,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -4.742526615235093,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -3.193989083936789,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD5": {
+      "kp": 6.0,
+      "kd": 0.2,
+      "mean_return": -6.006789518228301,
+      "mean_abs_final_error_rad": 0.0,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -6.730602083747595,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -6.00572127609419,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -5.782821725795268,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -6.747605314959171,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -4.767197190545284,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD6": {
+      "kp": 6.0,
+      "kd": 0.4,
+      "mean_return": -4.511631720067211,
+      "mean_abs_final_error_rad": 0.0,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -5.110691528132123,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -4.513746469911859,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -4.329622772453537,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -5.126363200664195,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -3.477734629174339,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD7": {
+      "kp": 8.0,
+      "kd": 0.2,
+      "mean_return": -6.7502593103189,
+      "mean_abs_final_error_rad": 3.5762786865234374e-08,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -7.553737500505255,
+          "final_error_rad": -5.960464477539063e-08,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -6.732634053169709,
+          "final_error_rad": -5.960464477539063e-08,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -6.488653591106534,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -7.575433247418513,
+          "final_error_rad": -5.960464477539063e-08,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -5.40083815939449,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD8": {
+      "kp": 8.0,
+      "kd": 0.4,
+      "mean_return": -4.902348382498202,
+      "mean_abs_final_error_rad": 0.0,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -5.531286872589842,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -4.900608023975587,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -4.707447814464497,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -5.547926385647021,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -3.8244728158140666,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD9": {
+      "kp": 12.0,
+      "kd": 0.2,
+      "mean_return": -8.289524309785564,
+      "mean_abs_final_error_rad": 2.2649765014648436e-07,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -9.148738502444257,
+          "final_error_rad": 1.1920928955078125e-07,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -8.315629721479088,
+          "final_error_rad": 2.384185791015625e-07,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -8.03667183135997,
+          "final_error_rad": 2.980232238769531e-07,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -9.172837436124325,
+          "final_error_rad": 1.1920928955078125e-07,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -6.773744057520184,
+          "final_error_rad": 3.5762786865234375e-07,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD10": {
+      "kp": 12.0,
+      "kd": 0.4,
+      "mean_return": -5.6738427515513585,
+      "mean_abs_final_error_rad": 0.0,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -6.412849238405617,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -5.658329910980097,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -5.427079600225069,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -6.428759030506394,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -4.442195977639613,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "PD11": {
+      "kp": 11.24,
+      "kd": 1.272,
+      "mean_return": -4.0605692367401245,
+      "mean_abs_final_error_rad": 0.0,
+      "episodes": [
+        {
+          "seed": 11,
+          "return": -4.615957526110541,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -4.0635338110207675,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -3.8928168184857,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -4.630440841442535,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -3.1000971866410794,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    }
+  }
+}

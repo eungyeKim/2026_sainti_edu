@@ -1,0 +1,8675 @@
+{
+  "model": "arm.xml",
+  "target_deg": 45,
+  "episode_seconds": 4,
+  "selection_metric": "mean_return",
+  "candidate_count": 1179,
+  "baseline": {
+    "mode": "PD4",
+    "kp": 4.0,
+    "kd": 0.4
+  },
+  "best_candidate": {
+    "kp": 11.24,
+    "kd": 1.272,
+    "stage": "final",
+    "mean_return": -4.0605692367401245,
+    "completed_episodes": 5
+  },
+  "comparisons": {
+    "search": {
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "pd4_mean_return": -4.165658066669708,
+      "best_mean_return": -4.0605692367401245,
+      "mean_return_gain": 0.10508882992958313,
+      "improved_seeds": 5,
+      "pd4_episodes": [
+        {
+          "seed": 11,
+          "return": -4.727787644442081,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -4.167479681708917,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -3.9965073080256563,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -4.742526615235093,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -3.193989083936789,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ],
+      "best_episodes": [
+        {
+          "seed": 11,
+          "return": -4.615957526110541,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 22,
+          "return": -4.0635338110207675,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 33,
+          "return": -3.8928168184857,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 44,
+          "return": -4.630440841442535,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 55,
+          "return": -3.1000971866410794,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    },
+    "validation": {
+      "seeds": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "pd4_mean_return": -3.656185018184427,
+      "best_mean_return": -3.5571571000989626,
+      "mean_return_gain": 0.09902791808546452,
+      "improved_seeds": 20,
+      "pd4_episodes": [
+        {
+          "seed": 100,
+          "return": -3.1886890615577466,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 101,
+          "return": -2.981715972431941,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 102,
+          "return": -4.651080549450003,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 103,
+          "return": -4.28839538572381,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 104,
+          "return": -3.1817384359229584,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 105,
+          "return": -3.5828368369304244,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 106,
+          "return": -2.909399003245466,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 107,
+          "return": -3.5615179242043777,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 108,
+          "return": -3.1480455641605745,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 109,
+          "return": -3.7806888310925495,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 110,
+          "return": -3.006186125031797,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 111,
+          "return": -4.666476860653352,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 112,
+          "return": -4.757541622063923,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 113,
+          "return": -4.871203914701387,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 114,
+          "return": -3.4001615300592802,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 115,
+          "return": -3.4516825945680067,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 116,
+          "return": -4.621053394925722,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 117,
+          "return": -3.1114993450877786,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 118,
+          "return": -3.005815849848303,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 119,
+          "return": -2.9579715620291434,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ],
+      "best_episodes": [
+        {
+          "seed": 100,
+          "return": -3.0949006256284064,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 101,
+          "return": -2.8921498051927417,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 102,
+          "return": -4.540598216554031,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 103,
+          "return": -4.184614755686266,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 104,
+          "return": -3.0880862085074736,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 105,
+          "return": -3.482366581010925,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 106,
+          "return": -2.8213949040256514,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 107,
+          "return": -3.461321920591046,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 108,
+          "return": -3.0550584007016948,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 109,
+          "return": -3.678194478796265,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 110,
+          "return": -2.9161019239982067,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 111,
+          "return": -4.555721711394228,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 112,
+          "return": -4.645196616809748,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 113,
+          "return": -4.75693150275866,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 114,
+          "return": -3.302418252567255,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 115,
+          "return": -3.353082584643342,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 116,
+          "return": -4.51110699044163,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 117,
+          "return": -3.0192440593538876,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 118,
+          "return": -2.915739368590307,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        },
+        {
+          "seed": 119,
+          "return": -2.868913094727486,
+          "final_error_rad": 0.0,
+          "terminated": false,
+          "truncated": true
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "kp": 0.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -8.771480032982437,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -11.093286338870868,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -13.905065710597263,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -16.90728801416421,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -19.992904233471183,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -23.103858878982955,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -26.199704710147913,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -29.24996542487508,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -32.23189355015473,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -35.129235437768415,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -37.931108772689065,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 0.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -40.6309205632001,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -5.98205264210871,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -6.471130956144221,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -7.551637007421989,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -8.862296910774205,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -10.28630075836944,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -11.774399747296089,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -13.302063953911825,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -14.855356054226483,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -16.425290296484057,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -18.005313384621857,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -19.590132126774133,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -21.175171916333166,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -5.41362161732531,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -5.152001691751328,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -5.593169533430962,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -6.30391055123936,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -7.1463792237340185,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -8.063027169051598,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -9.025567319433895,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -10.018469164308547,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -11.032482314360188,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -12.061722656896913,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -13.102218007053652,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 1.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -14.15112273761705,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -5.422496958500804,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -4.66797764507525,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -4.738819373313539,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -5.121566271636801,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -5.655511083423704,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -6.274170624712494,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -6.94505907457269,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -7.6504199509849835,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -8.379728282951532,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -9.126348984633998,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -9.885889911769137,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -10.655322833220373,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -5.698516293361461,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -4.544768750470902,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -4.3503254099758335,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.512858280806991,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.847024306741433,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -5.276861161407162,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -5.765472984717746,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -6.292777585948129,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -6.846909140058957,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -7.42040665741457,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -8.008344123475492,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 2.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -8.607339068671397,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -6.170201943327168,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -4.674643904137055,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -4.258156166344661,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.246635541833513,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.4358894260250405,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.731889080181509,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -5.093228987204845,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -5.497468054340956,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -5.93138820073432,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -6.386697940540905,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -6.85793334638239,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -7.341347898175795,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -6.643635179620697,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -4.902935806907395,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -4.3112547673271155,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.160821288286595,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.220542552841382,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.399750140620436,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.655182075539484,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.967323142989232,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -5.312103417734721,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -5.6803649484340815,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -6.066084057549789,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 3.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -6.465136433389425,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -7.062323843744972,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -5.152375951274054,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -4.43134834044856,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.165658066669708,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.128827061855972,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.222244986978666,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.395147152128381,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.618195988190592,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.8809787490901915,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -5.1722756932732405,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -5.491744902769444,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -5.8258925354367355,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -7.416323297904165,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -5.392306830181589,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -4.576175119287324,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.2252967369066345,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.1070974166580285,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.12487423303549,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.23393649381753,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.397706980375801,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.600374071421815,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.831343096413577,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -5.082264680258347,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 4.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -5.354195828178255,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -7.748715893161956,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -5.613653822740468,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -4.726087599765863,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.310351238102694,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.130492497461804,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.089585787693191,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.136346174039629,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.2473529234797365,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.403763355104791,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.588924552852192,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.795401866472619,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -5.021045753636775,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -8.05280690846169,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -5.810070897886413,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -4.877774884632636,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.407152494609496,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.177996849958537,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.088903648977874,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.091018641966557,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.15276777418528,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.2616193600770895,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.409459249708359,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.580938917244398,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 5.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.769822163455208,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -8.379030983097548,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -6.0067895182283015,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -5.0168532543876445,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.511631720067211,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.239998711762683,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.111161148825079,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.074640861886142,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.1017639892106015,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.172522387927262,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.278893432505923,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.414780794353938,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.574337005773081,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -8.748318384550567,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -6.168733874645866,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -5.14731241280563,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.613058469537595,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.31080043605439,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.148986692491487,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.07924216811376,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.074923452862716,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.117001750949977,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.192969991550205,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.294823289454535,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 6.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.420611954266417,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -9.05737377916999,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -6.330808487998617,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -5.280873293108513,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.710008153061583,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.386450097014667,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.1962893346474655,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.0996286379891504,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.0669421007158215,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.083133962177587,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.134204805078232,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.212599531926754,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.310597089149863,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -9.38577066763414,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -6.519381714594996,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -5.393526624054127,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.805081191732211,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.460390112422723,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.250477583388254,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.129984989280831,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.074476714198827,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.0660318923210745,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.095629088019171,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.152308925194429,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 7.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.231128343515268,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -9.697074882192089,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -6.7502593103189,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -5.501363568652116,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.902348382498203,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.5314513802426655,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.3064479327735095,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.167564218460783,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.0921852268189784,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.063951135280825,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.071841333111396,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.110330527636988,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.1704650718355385,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -9.986796704149693,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -6.962206072464605,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -5.610087351412464,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -4.988554713920047,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.604141552114684,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.363293106142282,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.210192915500887,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.1171235320102255,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.07197619758674,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.062466122882809,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.081612390750141,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.126024942159585,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -10.282068821958253,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -7.145982155762083,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -5.737830196929352,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -5.070552122594158,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.6785971063527985,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.418220019511831,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.2533588511924805,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.147518188078026,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.08707070303057,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.062954678794916,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.0667570215517905,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.093678049257112,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -10.611694104970782,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -7.345194987729246,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -5.886131007739454,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -5.144985856518203,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.747856552990019,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.475746500876323,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.297647837623889,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.180889066408685,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.10780703047888,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.070373089536884,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.06119575602998,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.07460674423558,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -10.956490225975891,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -7.532316246329751,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -6.056973669492322,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -5.225110300438827,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.810868894389921,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.5347587208456055,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.341855203940197,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.216267544301297,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.133296938367246,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.083426024778255,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.062543077850051,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.064210786910855,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -11.26871459832833,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -7.691248354290248,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -6.201824764976034,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -5.328937308865609,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.872590509949649,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.592335197011988,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.388598732058421,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.251401858036825,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.159870472852392,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.101106415599728,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.06940375486068,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.06070062894245,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -11.562204955425196,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -7.882926625507734,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -6.342344880004557,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -5.443725760506176,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.929511400330029,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.642463842015793,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.436609011244456,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.287908006395266,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.188889533655649,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.12177088557245,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.080778072465889,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.062479530164306,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -11.846056446166513,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -8.071331389161397,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -6.488131980132608,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -5.56214616034163,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -4.997625340996319,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.693971191319256,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.484600260568731,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.326697750777296,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.217709768274854,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.144343213258647,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.096272913933263,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.5,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.068757354138906,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 0.1,
+      "stage": "coarse",
+      "mean_return": -12.127144407626613,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 0.2,
+      "stage": "coarse",
+      "mean_return": -8.289524309785564,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 0.3,
+      "stage": "coarse",
+      "mean_return": -6.6217936764283465,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 0.4,
+      "stage": "coarse",
+      "mean_return": -5.673842751551358,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 0.5,
+      "stage": "coarse",
+      "mean_return": -5.073941149854041,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 0.6,
+      "stage": "coarse",
+      "mean_return": -4.740446580109633,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 0.7,
+      "stage": "coarse",
+      "mean_return": -4.526634254472939,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 0.8,
+      "stage": "coarse",
+      "mean_return": -4.366567870400347,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 0.9,
+      "stage": "coarse",
+      "mean_return": -4.248390874293887,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 1.0,
+      "stage": "coarse",
+      "mean_return": -4.1682664226884345,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 1.1,
+      "stage": "coarse",
+      "mean_return": -4.113107691902266,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12.0,
+      "kd": 1.2,
+      "stage": "coarse",
+      "mean_return": -4.0789778454917345,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.061751527021024,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.061211224233999,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.060877385260472,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.060744857640352,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.060808608978485,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.061063950872408,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.061506203417008,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.062130870611427,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.062933674941563,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.063910444537818,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.065057139662294,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.066369807259993,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.067844733457016,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.069478245230144,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.2,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.071338611985249,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.06209368074788,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.0614482247670285,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.061010063906835,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.0607740963303405,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.060735284011792,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.0608887968434555,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.06123008165408,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.061754579904234,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.062457957631252,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.063335984278006,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.064384633314793,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.065600038521258,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.066978270375178,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.0685157868216475,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.25,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.070208987589631,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.062488927184889,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.061738693544106,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.06119663070989,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.060857678141112,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.0607166776376635,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.060768910826177,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.061009630994637,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.061434341668652,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.06203869385753,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.062818458344749,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.0637695384009715,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.064888001311603,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.06617006722095,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.067612037657376,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.3,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.0692103163122635,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.062936641627062,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.062082018545059,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.06143653340782,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.060994943045285,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.060752202046785,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.060703516653682,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.060844147196381,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.061169479441703,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.061675237617866,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.062357154975806,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.063211091258869,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.064233138247665,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.065419443400181,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.066766241837387,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.35,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.068270023321404,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.063436294320277,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.0624776427039455,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.061729067960213,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.061185303467534,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.060841241996865,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.060692031225764,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.060732923702537,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.060959361223377,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.061366932959013,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.061951437198064,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.0627086487332935,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.063634638756335,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.064725571506116,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.0659776689518825,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.067387423679592,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.063987103832334,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.062924932678749,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.062073685344877,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.061428100752061,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.060983094160141,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.060733773473116,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.060675361137108,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.060803281945829,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.06111310513284,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.0616005253451695,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.062261471075463,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.063091864282089,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.0640878847793305,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.065245746478084,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.066561803136073,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.064588630413363,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.063423269418129,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.062469723040702,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.061722733464352,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.061177180375802,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.060828192704999,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.06067079167624,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.060913083998523,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.061303922226569,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.0618689240684205,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.062604157011207,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.063505580099478,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.0645696091283385,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.065792493632094,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.065240239169107,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.063972038461609,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.0629166048161345,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.062068622962866,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.061422886123115,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.0609745234147265,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.0607187187168545,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.060650761465457,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.060766283999061,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.061060877222196,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.061530392960716,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.062170805597505,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.062978136644441,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.063948717579828,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.065078812137605,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.065941373392627,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.064570722065285,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.06341373817405,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.062465086765362,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.06171963780607,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.061172304209622,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.060818366003604,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.060653055743714,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.060672008401257,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.0608707888685185,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.061245206711854,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.061791207688426,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.062504837733625,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.063382332706387,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.064420009639859,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.066691454146936,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.0652187176590395,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.063960570364637,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.062911675198589,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.062066778383445,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.06142090447453,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.060969185700724,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.0607069630867825,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.060629699383814,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.060733028239982,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.061012712324013,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.061464680658314,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.062085030937412,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.062869861767108,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.063815567341298,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.067479720584056,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.065915475546002,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.064556548526163,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.063407710386528,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.0624637906246965,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.061719697557945,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.061170639374144,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.060811804442184,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.060638707823127,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.060646996242214,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.060832381329436,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.061190731814103,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.061718102861,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.062410689491281,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.063264713764345,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.068300870726575,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.066657184475388,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.065201112345258,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.063952736356968,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.062910099327827,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.062068198726785,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.0614220798287395,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.0609670590116576,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.060698543073222,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.060612126904814,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.060703518175242,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.060968605459638,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.061403463561671,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.062004136069059,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.062766940229739,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.13,
+      "stage": "fine",
+      "mean_return": -4.069166374632698,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.14,
+      "stage": "fine",
+      "mean_return": -4.067426049689159,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.15,
+      "stage": "fine",
+      "mean_return": -4.065893695357247,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.16,
+      "stage": "fine",
+      "mean_return": -4.06454607544714,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.17,
+      "stage": "fine",
+      "mean_return": -4.06340516068274,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.18,
+      "stage": "fine",
+      "mean_return": -4.062465782433878,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.19,
+      "stage": "fine",
+      "mean_return": -4.061723012388961,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.2,
+      "stage": "fine",
+      "mean_return": -4.06117213279262,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.21,
+      "stage": "fine",
+      "mean_return": -4.060808511873599,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.22,
+      "stage": "fine",
+      "mean_return": -4.060627783324889,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.23,
+      "stage": "fine",
+      "mean_return": -4.060625594552674,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.24,
+      "stage": "fine",
+      "mean_return": -4.060797817131471,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.25,
+      "stage": "fine",
+      "mean_return": -4.0611404650461225,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.26,
+      "stage": "fine",
+      "mean_return": -4.061649611585975,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.27,
+      "stage": "fine",
+      "mean_return": -4.062321561078049,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.060626031830303,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.060620529292628,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.0606221954394845,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.060631031484289,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.060670057030862,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060700112980591,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.060737231568994,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.060781322563242,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.21,
+      "stage": "refined",
+      "mean_return": -4.060646658489114,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.060630152076577,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.060620824403765,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.060618731698492,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.060623764445227,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.22,
+      "stage": "refined",
+      "mean_return": -4.060635976142744,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.060655216267227,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060681526539241,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.060714884905337,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.060755236153577,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.71,
+      "kd": 1.23,
+      "stage": "refined",
+      "mean_return": -4.060802482401652,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.21,
+      "stage": "refined",
+      "mean_return": -4.060656576615118,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.060636252046402,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.0606231840668245,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.060617292721323,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.0606185631496166,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.22,
+      "stage": "refined",
+      "mean_return": -4.060626945100998,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.060642439454913,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060665006593091,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.0606945627632784,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.060731142166036,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.72,
+      "kd": 1.23,
+      "stage": "refined",
+      "mean_return": -4.060774672355502,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.21,
+      "stage": "refined",
+      "mean_return": -4.06066856377755,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.060644430727493,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.060627551005066,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.060617877067495,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.0606153280459925,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.22,
+      "stage": "refined",
+      "mean_return": -4.060619947106029,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.060631672381324,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060650459818895,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.06067632563078,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.060709120758441,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.73,
+      "kd": 1.23,
+      "stage": "refined",
+      "mean_return": -4.060748909960386,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.21,
+      "stage": "refined",
+      "mean_return": -4.060682547538529,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.060654655592977,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.060633931783577,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.060620472754854,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.060614193250316,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.22,
+      "stage": "refined",
+      "mean_return": -4.0606150355707715,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.060622986313764,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060637996819529,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.060660111836781,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.060689142548695,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.74,
+      "kd": 1.23,
+      "stage": "refined",
+      "mean_return": -4.060725183501596,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.060666815532219,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.06064239221746,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.0606251207381545,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.060615050139912,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.060616307700552,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060627572593214,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.0606458629540025,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.060671204414871,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.21,
+      "stage": "refined",
+      "mean_return": -4.0607165270949634,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.060681046591979,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.060652775691268,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.060631745203162,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.060617900602454,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.22,
+      "stage": "refined",
+      "mean_return": -4.060611219641941,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.060611662259958,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060619140004974,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.060633713920188,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.06065531008708,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.76,
+      "kd": 1.23,
+      "stage": "refined",
+      "mean_return": -4.060683897195275,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.21,
+      "stage": "refined",
+      "mean_return": -4.0607365444546915,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.060697248524155,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.060665232887051,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.060640403277961,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.060622819369641,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.22,
+      "stage": "refined",
+      "mean_return": -4.060612352902455,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.060609012041008,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060612798951269,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.060623593047999,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.06064144727704,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.77,
+      "kd": 1.23,
+      "stage": "refined",
+      "mean_return": -4.0606662825249655,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.21,
+      "stage": "refined",
+      "mean_return": -4.060758533729619,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.0607155152433325,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.060679649897735,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.060651076693857,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.060629711398431,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.22,
+      "stage": "refined",
+      "mean_return": -4.060615481534407,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.060608377402712,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060608403662713,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.0606154875668805,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.060629616102859,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.78,
+      "kd": 1.23,
+      "stage": "refined",
+      "mean_return": -4.060650692859331,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.21,
+      "stage": "refined",
+      "mean_return": -4.06078253350992,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.060735674697763,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.060696103871274,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.060663723404034,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.060638588232247,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.22,
+      "stage": "refined",
+      "mean_return": -4.060620602586445,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.0606098175421375,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060606060942772,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.060609390570958,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.060619738221075,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.79,
+      "kd": 1.23,
+      "stage": "refined",
+      "mean_return": -4.0606371250186575,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.212,
+      "stage": "refined",
+      "mean_return": -4.060757891093272,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.214,
+      "stage": "refined",
+      "mean_return": -4.0607145137143545,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.216,
+      "stage": "refined",
+      "mean_return": -4.0606783912639655,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.218,
+      "stage": "refined",
+      "mean_return": -4.060649486549576,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.222,
+      "stage": "refined",
+      "mean_return": -4.060613207839198,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.224,
+      "stage": "refined",
+      "mean_return": -4.060605691995384,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.226,
+      "stage": "refined",
+      "mean_return": -4.0606053252562795,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.228,
+      "stage": "refined",
+      "mean_return": -4.060611928194527,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.3406101202123795,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.561674462851029,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.828453134392223,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -5.122125508232625,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -5.432802459756989,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -5.75739447066122,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -6.097983937276128,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -7.935497503254413,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -8.843959587652744,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -9.596095813954774,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 8,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -10.467929764708755,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.204846729262792,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.365794563566341,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.562626287480603,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.7943550622744775,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -5.05362634627412,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -5.3270113472035865,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -5.6128587910193435,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -6.593430361294098,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -8.158004522416817,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -8.817472913331752,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 9,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -9.592548064518834,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.121137105775962,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.23586546258456,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.387083121787407,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.566463632640508,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.771888040606216,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -5.001287255504718,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -5.245818075400227,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.95096801132122,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -7.493360200174728,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -8.150781426768813,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -8.812023832710823,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.078627048426379,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.149429877796655,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.263479824470069,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.405410646030803,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.571106667272218,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.7574424290519115,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.9679945526015885,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -6.289120128336476,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -7.1235612323340085,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -7.581198924152634,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -8.19218255011708,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.0622086485934865,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.098856432217711,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.176754620896276,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.288047472273417,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.421871128463078,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.5760762144798965,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.754164497722879,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -6.48132879399754,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -6.811776900502026,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -7.080148895013738,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 12,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -7.42183407864029,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.106502551005434,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.06296202577454,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.072273380590178,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.121248714329631,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.202564891420067,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.310086089146399,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.436851633713356,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.584410721180657,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -6.37196379986197,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -6.639098118267226,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -6.8039985291698555,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 13,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -7.127406941032796,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.139655766298623,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.07663240125481,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.0619317520880545,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.087539191087306,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.144320224725099,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.226987681292693,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.3303602365549985,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.452195856945244,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.75099544897158,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -6.47418537601167,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -6.627018538755419,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 14,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -6.826280032353147,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.177452187038188,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.097355899029009,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.064291654152444,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.069231189954685,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.105443909731763,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.1674814990942535,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.250998800215141,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.351245317775574,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.443007207711392,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -6.321117436318742,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -6.4870904608182105,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 15,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -6.642882732648097,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.220650172058551,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.121634158419958,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.0748788599577646,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.062716425214703,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.081054997082624,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.124905285045209,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.191530674033347,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.276273968595205,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.581126956831692,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -6.199516949007783,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -6.351049062979377,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 16,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -6.501620098360038,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.26647678660239,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.151165013992118,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.091158905798705,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.06634535604293,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.068029059644435,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.095678321837525,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.1463052369159685,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.220958265808254,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.771862783405077,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -6.100604971124517,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -6.241370420906988,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 17,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -6.3882420889336835,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.3076797232148385,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.185213990008057,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.109672930744821,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.074455559581474,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.064937937733102,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.077789043949345,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.112561710968903,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.168134960210336,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.709243456250148,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -6.04573800352101,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -6.123608303578168,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 18,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -6.287378191747957,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.349965837381305,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.2215940135741805,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.133498508669364,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.086679194443569,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.067785298803167,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.069041440388945,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.0892691772023255,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.134776128900439,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.743725989709462,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -5.955480446010515,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -6.081072226710961,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 19,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -6.197627517118975,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.391664705474102,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.2561673122869035,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.161156079464185,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.101492109192591,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.074932643104069,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.067111734521837,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.077634489203273,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.103179605048468,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.650484281416324,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -5.937582499789073,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -6.012963421743567,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 20,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -6.124649663492184,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.4394142662260485,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.290787530853064,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.192646994881547,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.121366990654209,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.083757027821931,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.069512321298235,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.069301262249602,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.089491180283358,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.35272520563961,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -5.907421334031788,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -5.9708166452481155,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 21,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -6.060186051135864,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.499160392950706,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.328274272058795,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.224646708260995,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.145613124425281,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.095918121710339,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.075261472515169,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.068524853173391,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.077875029245889,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.376007612728216,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -5.845218475409191,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -5.93742484360518,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 22,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -6.008899144049467,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.573794265978466,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.361789526922051,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.252752488175852,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.173248194260293,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.1132375497324345,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.082091512513038,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.071289260168734,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.073472603855266,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.4559809587026225,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -5.83376530986424,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -5.905205378395196,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 23,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -5.974850927789637,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.650780587666568,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.406672715949339,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.2881427739054025,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.207331990973724,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.134808608590212,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.092183767751324,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.075984327097537,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.068872076159011,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.222384751522323,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -5.801827677830821,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -5.864857222491086,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 24,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -5.945035728487448,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.741639884719787,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.463815747812266,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.315290560237864,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.22847197194696,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.158867178826975,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.1074664547770645,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.080900158977609,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.0745766708040625,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -5.378623634632227,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -5.803062740925637,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -5.856738089041999,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 25,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -5.911913704759195,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 1.2,
+      "stage": "expanded",
+      "mean_return": -4.8219130951705305,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 1.4,
+      "stage": "expanded",
+      "mean_return": -4.5323120023623495,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 1.6,
+      "stage": "expanded",
+      "mean_return": -4.342915605161824,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 1.8,
+      "stage": "expanded",
+      "mean_return": -4.257067956731456,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 2.0,
+      "stage": "expanded",
+      "mean_return": -4.192091653039007,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 2.2,
+      "stage": "expanded",
+      "mean_return": -4.126444864093389,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 2.4,
+      "stage": "expanded",
+      "mean_return": -4.089843795934147,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 2.6,
+      "stage": "expanded",
+      "mean_return": -4.0782790800242275,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 2.8,
+      "stage": "expanded",
+      "mean_return": -4.887815209607993,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 3.0,
+      "stage": "expanded",
+      "mean_return": -5.806417040567064,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 3.2,
+      "stage": "expanded",
+      "mean_return": -5.833435779001814,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 26,
+      "kd": 3.4,
+      "stage": "expanded",
+      "mean_return": -5.888371123413946,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 30,
+      "kd": 1.8,
+      "stage": "high_gain",
+      "mean_return": -4.36275447167678,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 30,
+      "kd": 2.4,
+      "stage": "high_gain",
+      "mean_return": -4.165397889314588,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 30,
+      "kd": 3.0,
+      "stage": "high_gain",
+      "mean_return": -5.800633551996905,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 30,
+      "kd": 3.6,
+      "stage": "high_gain",
+      "mean_return": -5.874060532565162,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 30,
+      "kd": 4.2,
+      "stage": "high_gain",
+      "mean_return": -6.0680532515653836,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 30,
+      "kd": 4.8,
+      "stage": "high_gain",
+      "mean_return": -6.334789381174827,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 30,
+      "kd": 5.4,
+      "stage": "high_gain",
+      "mean_return": -6.714658174910964,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 30,
+      "kd": 6.0,
+      "stage": "high_gain",
+      "mean_return": -7.166812035080934,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 40,
+      "kd": 2.4,
+      "stage": "high_gain",
+      "mean_return": -4.365176434378354,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 40,
+      "kd": 3.2,
+      "stage": "high_gain",
+      "mean_return": -5.900298371331336,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 40,
+      "kd": 4.0,
+      "stage": "high_gain",
+      "mean_return": -5.895041355910317,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 40,
+      "kd": 4.8,
+      "stage": "high_gain",
+      "mean_return": -6.020733826263102,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 40,
+      "kd": 5.6,
+      "stage": "high_gain",
+      "mean_return": -6.298391845381786,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 40,
+      "kd": 6.4,
+      "stage": "high_gain",
+      "mean_return": -6.629473587835068,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 40,
+      "kd": 7.2,
+      "stage": "high_gain",
+      "mean_return": -7.086444104294928,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 40,
+      "kd": 8.0,
+      "stage": "high_gain",
+      "mean_return": -7.614791654093092,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 60,
+      "kd": 3.6,
+      "stage": "high_gain",
+      "mean_return": -6.103038289516921,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 60,
+      "kd": 4.8,
+      "stage": "high_gain",
+      "mean_return": -5.9728123173738,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 60,
+      "kd": 6.0,
+      "stage": "high_gain",
+      "mean_return": -5.966093607612725,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 60,
+      "kd": 7.2,
+      "stage": "high_gain",
+      "mean_return": -6.083024828441348,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 60,
+      "kd": 8.4,
+      "stage": "high_gain",
+      "mean_return": -6.205969452634459,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 60,
+      "kd": 9.6,
+      "stage": "high_gain",
+      "mean_return": -6.649200439913635,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 60,
+      "kd": 10.8,
+      "stage": "high_gain",
+      "mean_return": -6.756928579941109,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 60,
+      "kd": 12.0,
+      "stage": "high_gain",
+      "mean_return": -7.887111310969009,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 100,
+      "kd": 6.0,
+      "stage": "high_gain",
+      "mean_return": -6.122701977223036,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 100,
+      "kd": 8.0,
+      "stage": "high_gain",
+      "mean_return": -6.076199130631223,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 100,
+      "kd": 10.0,
+      "stage": "high_gain",
+      "mean_return": -5.953083477654967,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 100,
+      "kd": 12.0,
+      "stage": "high_gain",
+      "mean_return": -6.145245681550972,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 100,
+      "kd": 14.0,
+      "stage": "high_gain",
+      "mean_return": -6.409911251071774,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 100,
+      "kd": 16.0,
+      "stage": "high_gain",
+      "mean_return": -6.8873801895565245,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 100,
+      "kd": 18.0,
+      "stage": "high_gain",
+      "mean_return": -7.1471173657399145,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 100,
+      "kd": 20.0,
+      "stage": "high_gain",
+      "mean_return": -8.075174141525846,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.060955217599803,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.06072863145589,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.060694040310606,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.060846773144068,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.061182455160668,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.061696685126172,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.062385254612962,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.06324424543671,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.0642696279229344,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.065457737660672,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.0668048493909925,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.068307459266279,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.4,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.0699621365219425,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.0611373537579025,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.060810323105661,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.060676123979185,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.0607300616723805,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.060967636056404,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.061384514972718,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.061976548205158,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.062739619196658,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.063669849494451,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.064763406589965,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.066016609260671,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.06742595912295,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.45,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.0689879903050565,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.061371560722276,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.060944493753077,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.060711064243526,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.060666513734836,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.06080644361599,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.06112645837391,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.061622281167747,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.062289926007954,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.063125335783063,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.064124758660508,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.065284494912414,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.0666010183179315,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.5,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.068070816847857,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.061657213924277,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.061130504758263,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.060798200102395,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.0606556659460145,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.060698332941947,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.060921815112822,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.061321836950883,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.061894365666642,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.062635422880416,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.063541142111826,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.064607840412686,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.06583190493781,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.55,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.067209906213594,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.061993766513235,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.061367766998995,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.060937035131521,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.060696817846943,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.060642605749532,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.060769967001267,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.061074619849112,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.061552445729286,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.062199511629492,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.063011938584001,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.063985935876404,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.065118027405858,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.6,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.066404581877812,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.062380574517291,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.061655671113207,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.0611268584273885,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.060789399338012,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.060638696162457,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.060670295566492,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.0608799450535695,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.061263499917661,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.061816952755092,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.062536437492595,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.063418191784786,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.064458611317904,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.65,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.065654206209123,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.062817116341652,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.0619936879813565,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.061367150374694,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.060932815248771,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.060685981283722,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.06102688291824,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.061487145554182,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.062114064290775,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.062903970928204,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.063853161799334,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.7,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.064958143458379,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.063302795181596,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.0623812305609,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.061657329884486,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.0611264103687965,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.060783861694545,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.060842022677329,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.06120940535088,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.061744195672671,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.062442578308744,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.06330093585104,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.75,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.064315645775177,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.063837057353258,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.062817681895121,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.061996815322464,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.0613697454186655,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.060931796380685,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.060708253817338,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.060983183375793,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.061426192405039,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.062033485850064,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.062801361435063,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.8,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.063726206537169,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.064419417535304,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.0633025199324875,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.062385089145783,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.061662165831867,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.061129202235527,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.060781546382583,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.060614889331536,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.060625068363117,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.0608079107421995,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.061159519950926,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.061676058230195,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.062353797940601,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.85,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.0631891622430905,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.065049299892684,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.063835302763662,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.062821567771198,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.062003189546535,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.06137546122478,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.060933940635394,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.060674153212399,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.060591841523134,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.06068296665013,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.060943524846339,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.061369665097203,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.061957699794041,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.9,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.0627039903837465,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.065709043990845,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.064415408517358,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.063305709541931,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.0623922145243725,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.061670177584341,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.061135062335675,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.060782473643062,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.060608069076465,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.060607829810683,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.060777676656903,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.061113778431412,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.061612405542793,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 10.95,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.062269940057067,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.066407888305228,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.065032067153946,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.063837035998128,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.062828745360176,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.0620127273698365,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.0613843877918985,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.060939318601058,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.060673202549374,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.060581859202549,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.060661385755667,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.060907809455151,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.06131742015511,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.0,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.061886566372567,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.067149832819151,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.065682022669759,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.064411150733283,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.063312292637512,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.06240259600642,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.061681334778143,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.061144156051731,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.060786582362648,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.060604612646917,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.060594112773456,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.060751194753824,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.061072159321402,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.05,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.061553235290807,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.067934453354576,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.06637494337486,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.065013154777507,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.06384224032581,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.062839249800889,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.062025443182716,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.061396403189487,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.0609478457400385,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.060675452359486,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.060575271884412,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.060643423356361,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.060876018508135,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.1,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.061269394846492,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.068761261821913,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.067110341052082,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.065657988532417,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.06439933763405,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.063322206892859,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.062416178225162,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.061695656752041,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.061156332963712,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.060793916203305,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.060604467600677,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.060583890064237,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.060728489734089,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.06103454962289,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.166,
+      "stage": "local",
+      "mean_return": -4.069629862329676,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.176,
+      "stage": "local",
+      "mean_return": -4.067887854678833,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.186,
+      "stage": "local",
+      "mean_return": -4.066345173106386,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.196,
+      "stage": "local",
+      "mean_return": -4.064997018863085,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.206,
+      "stage": "local",
+      "mean_return": -4.063838730788456,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.216,
+      "stage": "local",
+      "mean_return": -4.062852994396775,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.226,
+      "stage": "local",
+      "mean_return": -4.0620413555024495,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.236,
+      "stage": "local",
+      "mean_return": -4.06141159303283,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.246,
+      "stage": "local",
+      "mean_return": -4.060959512834961,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.256,
+      "stage": "local",
+      "mean_return": -4.06068100168139,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.266,
+      "stage": "local",
+      "mean_return": -4.060572114372895,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.276,
+      "stage": "local",
+      "mean_return": -4.0606290622599355,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.286,
+      "stage": "local",
+      "mean_return": -4.060848075304224,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.060586921514736,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.060576189399375,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.060572091100967,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.060574692772729,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.060599737466481,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.060622149611213,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.060651063394809,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.15,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.060686529413336,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.256,
+      "stage": "final",
+      "mean_return": -4.060615950930865,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.060594946888092,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.060580583149497,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.060572999072376,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.060572050601574,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.266,
+      "stage": "final",
+      "mean_return": -4.060577739232592,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.060590064721569,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.060608925541012,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.060634358834146,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.060666314788811,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.16,
+      "kd": 1.276,
+      "stage": "final",
+      "mean_return": -4.060704779777861,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.256,
+      "stage": "final",
+      "mean_return": -4.060629366470505,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.0606048189640624,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.06058697663729,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.060575800032875,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.060571338730732,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.266,
+      "stage": "final",
+      "mean_return": -4.060573495086787,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.060582246747157,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.060597666081262,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.060619547828105,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.060648040030699,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.17,
+      "kd": 1.276,
+      "stage": "final",
+      "mean_return": -4.060682990212637,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.256,
+      "stage": "final",
+      "mean_return": -4.0606446984762465,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.0606165693799365,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.0605951979016135,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.06058051113215,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.060572517342732,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.266,
+      "stage": "final",
+      "mean_return": -4.0605711599316665,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.060576424263781,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.060588271818847,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.060606714472572,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.060631641518621,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.18,
+      "kd": 1.276,
+      "stage": "final",
+      "mean_return": -4.0606630973474225,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.256,
+      "stage": "final",
+      "mean_return": -4.06066192091442,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.060630258786612,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.060605315340792,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.060587074418411,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.060575556769352,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.266,
+      "stage": "final",
+      "mean_return": -4.060570711218804,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.0605724485979415,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.060580774534773,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.060595712534101,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.060617164902395,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.19,
+      "kd": 1.276,
+      "stage": "final",
+      "mean_return": -4.060645105858814,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.060645803467271,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.060617331204787,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.060595587338115,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.060580513923695,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.060570360531273,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.060575207567552,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.060586637238791,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.2,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.060604584948945,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.256,
+      "stage": "final",
+      "mean_return": -4.060701958976129,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.060663207262967,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.060631206695156,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.06060592471547,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.060587350472378,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.266,
+      "stage": "final",
+      "mean_return": -4.060575458173896,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.060570196695083,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.060571540813279,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.060579441328053,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.0605939133224265,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.21,
+      "kd": 1.276,
+      "stage": "final",
+      "mean_return": -4.060614907488723,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.256,
+      "stage": "final",
+      "mean_return": -4.060724789131465,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.06068251063596,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.0606469925367135,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.060618176555447,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.060596091690924,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.266,
+      "stage": "final",
+      "mean_return": -4.0605806843775,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.060571903269876,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.0605697583573805,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.060574172643312,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.060585098225352,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.22,
+      "kd": 1.276,
+      "stage": "final",
+      "mean_return": -4.060602652822002,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.256,
+      "stage": "final",
+      "mean_return": -4.060749483237586,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.060703680487534,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.060664640058128,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.060632303479035,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.060606715434676,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.266,
+      "stage": "final",
+      "mean_return": -4.060587776381175,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.060575484421306,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.060569859777668,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.060570746012743,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.060578269821559,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.23,
+      "kd": 1.276,
+      "stage": "final",
+      "mean_return": -4.060592258021603,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.256,
+      "stage": "final",
+      "mean_return": -4.060776052489972,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.060726692462563,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.060684139887563,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.060648309824815,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.06061918442083,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.266,
+      "stage": "final",
+      "mean_return": -4.060596767678229,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.0605809678670735,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.060571800754728,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.0605692367401245,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.060573234436174,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.24,
+      "kd": 1.276,
+      "stage": "final",
+      "mean_return": -4.060583790821017,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.256,
+      "stage": "final",
+      "mean_return": -4.060804483287297,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.258,
+      "stage": "final",
+      "mean_return": -4.060751587091855,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.26,
+      "stage": "final",
+      "mean_return": -4.060705507535876,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.262,
+      "stage": "final",
+      "mean_return": -4.060666138237713,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.264,
+      "stage": "final",
+      "mean_return": -4.060633530947925,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.266,
+      "stage": "final",
+      "mean_return": -4.060607579367269,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.268,
+      "stage": "final",
+      "mean_return": -4.060588353225083,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.27,
+      "stage": "final",
+      "mean_return": -4.060575653566551,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.272,
+      "stage": "final",
+      "mean_return": -4.060569616787832,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.274,
+      "stage": "final",
+      "mean_return": -4.060570156002881,
+      "completed_episodes": 5
+    },
+    {
+      "kp": 11.25,
+      "kd": 1.276,
+      "stage": "final",
+      "mean_return": -4.060577185607859,
+      "completed_episodes": 5
+    }
+  ]
+}
