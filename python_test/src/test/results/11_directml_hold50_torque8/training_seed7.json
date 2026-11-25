@@ -1,0 +1,51 @@
+{
+  "seed": 7,
+  "torch": "2.4.1+cpu",
+  "backend": "directml",
+  "gpu": "AMD Radeon(TM) 780M Graphics",
+  "selected_step": 32768,
+  "history": [
+    {
+      "steps": 8192,
+      "reached_90": 0,
+      "min_reach_pct": -149.42536738716421
+    },
+    {
+      "steps": 16384,
+      "reached_90": 3,
+      "min_reach_pct": 46.21974337097123
+    },
+    {
+      "steps": 24576,
+      "reached_90": 0,
+      "min_reach_pct": 74.06432389322295
+    },
+    {
+      "steps": 32768,
+      "reached_90": 9,
+      "min_reach_pct": 89.55206781237212
+    },
+    {
+      "steps": 40960,
+      "reached_90": 9,
+      "min_reach_pct": 85.09870618879293
+    },
+    {
+      "steps": 49152,
+      "reached_90": 6,
+      "min_reach_pct": 85.0981297584023
+    },
+    {
+      "steps": 57344,
+      "reached_90": 9,
+      "min_reach_pct": 81.64824449069276
+    },
+    {
+      "steps": 65536,
+      "reached_90": 9,
+      "min_reach_pct": 82.33729095938962
+    }
+  ],
+  "policy_device": "privateuseone:0",
+  "adam_device": "privateuseone:0"
+}

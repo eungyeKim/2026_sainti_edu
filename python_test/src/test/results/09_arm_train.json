@@ -1,0 +1,120 @@
+{
+  "training_seed": 7,
+  "requested_steps": 4096,
+  "training_steps": 4096,
+  "learning_rate": 0.0015,
+  "activation": "leaky_relu",
+  "evaluation_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "zero": {
+    "mean_return": -131.65206027743827,
+    "rmse_rad": 0.8113324234783159,
+    "final_abs_error_rad": 0.8096630814789106,
+    "failures": 0,
+    "steps": 1000
+  },
+  "before": {
+    "mean_return": -149.86489317498047,
+    "rmse_rad": 0.8656301652370714,
+    "final_abs_error_rad": 0.925909101714032,
+    "failures": 0,
+    "steps": 1000
+  },
+  "sb3": {
+    "mean_return": -4.186805666823051,
+    "rmse_rad": 0.12163454147617071,
+    "final_abs_error_rad": 0.014100907246930383,
+    "failures": 0,
+    "steps": 1000
+  },
+  "checkpoint_every": 512,
+  "checkpoint_selection": "mean_return",
+  "checkpoints": [
+    {
+      "env_steps": 512,
+      "path": "09_arm_checkpoints/run-rgy7uek1/ppo_00000512.zip",
+      "mean_return": -56.1213197089252,
+      "rmse_rad": 0.5294834273109116,
+      "final_abs_error_rad": 0.1767719288660457,
+      "failures": 0,
+      "steps": 1000
+    },
+    {
+      "env_steps": 1024,
+      "path": "09_arm_checkpoints/run-rgy7uek1/ppo_00001024.zip",
+      "mean_return": -32.7374565284187,
+      "rmse_rad": 0.40347007982788385,
+      "final_abs_error_rad": 0.3769610504315922,
+      "failures": 0,
+      "steps": 1000
+    },
+    {
+      "env_steps": 1536,
+      "path": "09_arm_checkpoints/run-rgy7uek1/ppo_00001536.zip",
+      "mean_return": -176.8102996032892,
+      "rmse_rad": 0.9402074464221366,
+      "final_abs_error_rad": 1.1017310102774074,
+      "failures": 0,
+      "steps": 1000
+    },
+    {
+      "env_steps": 2048,
+      "path": "09_arm_checkpoints/run-rgy7uek1/ppo_00002048.zip",
+      "mean_return": -14.187044263380207,
+      "rmse_rad": 0.26321125106292204,
+      "final_abs_error_rad": 0.2917842487500737,
+      "failures": 0,
+      "steps": 1000
+    },
+    {
+      "env_steps": 2560,
+      "path": "09_arm_checkpoints/run-rgy7uek1/ppo_00002560.zip",
+      "mean_return": -5.385926422708384,
+      "rmse_rad": 0.15108401549497455,
+      "final_abs_error_rad": 0.06348331968055465,
+      "failures": 0,
+      "steps": 1000
+    },
+    {
+      "env_steps": 3072,
+      "path": "09_arm_checkpoints/run-rgy7uek1/ppo_00003072.zip",
+      "mean_return": -6.98634336009845,
+      "rmse_rad": 0.15148690329816292,
+      "final_abs_error_rad": 0.022168491284711146,
+      "failures": 0,
+      "steps": 1000
+    },
+    {
+      "env_steps": 3584,
+      "path": "09_arm_checkpoints/run-rgy7uek1/ppo_00003584.zip",
+      "mean_return": -5.090763766335898,
+      "rmse_rad": 0.14535116665040262,
+      "final_abs_error_rad": 0.06649046937690475,
+      "failures": 0,
+      "steps": 1000
+    },
+    {
+      "env_steps": 4096,
+      "path": "09_arm_checkpoints/run-rgy7uek1/ppo_00004096.zip",
+      "mean_return": -4.186805666823051,
+      "rmse_rad": 0.12163454147617071,
+      "final_abs_error_rad": 0.014100907246930383,
+      "failures": 0,
+      "steps": 1000
+    }
+  ],
+  "best_checkpoint": {
+    "env_steps": 4096,
+    "path": "09_arm_checkpoints/run-rgy7uek1/ppo_00004096.zip",
+    "mean_return": -4.186805666823051,
+    "rmse_rad": 0.12163454147617071,
+    "final_abs_error_rad": 0.014100907246930383,
+    "failures": 0,
+    "steps": 1000
+  }
+}
